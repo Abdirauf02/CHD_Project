@@ -11,7 +11,7 @@ library(ggplot2)
 
 load("CHD.RData")
 
-#My student number
+
 set.seed(202271442) 
 
 z.omit<- sample(1:nrow(CHD), 10, replace = TRUE)
